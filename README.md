@@ -2,11 +2,11 @@
 Heya! This repository is for my team (PID-08) linux project named 'Cronjob Scheduler'.
 
 
-cronjob-scheduler
+# Cronjob-scheduler
 A simple interactive tool to help you manage cron jobs on your Linux system.
 This script allows you to view, add, delete, and backup your cron jobs using a terminal-based interface.
 
-Features
+# Features
 View your current crontab jobs
 
 Add new cron jobs with easy input prompts
@@ -43,9 +43,6 @@ cd cronjob-scheduler
 chmod +x scheduler.sh
 Run the script:
 
-bash
-Copy
-Edit
 ./scheduler.sh
 Use the arrow keys and Enter to navigate the menu.
 
