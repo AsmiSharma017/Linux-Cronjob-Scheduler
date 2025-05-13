@@ -2,34 +2,54 @@
 Heya! This repository is for my team (PID-08) linux project named 'Cronjob Scheduler'.
 
 
-# cronjob-scheduler
+cronjob-scheduler
+A simple interactive tool to help you manage cron jobs on your Linux system.
+This script allows you to view, add, delete, and backup your cron jobs using a terminal-based interface.
 
-A simple, terminal-based tool to manage your cron jobs with an easy-to-use menu. No need to remember crontab syntax or edit files manually — just run the script and follow the prompts.
+Features
+View your current crontab jobs
 
-## What it does
+Add new cron jobs with easy input prompts
 
-This script helps you:
+Delete existing jobs by selecting from a list
 
-- Add new cron jobs
-- View your existing jobs
-- Edit or update a job
-- Delete a job
-- Back up your current crontab
-- Restore from a backup
+Backup your crontab to a file
 
-Everything happens inside a clean, dialog-based interface right in your terminal.
+Restore crontab from a saved backup
 
-## Why this exists
+Fully interactive, keyboard-navigable menu
 
-Working with `crontab -e` is fine if you’re comfortable with it. But for quick changes, backups, or even teaching others how cron works, it’s not ideal. This script removes that friction and gives you a more guided experience, without hiding how cron actually works.
+Requirements
+Bash (tested on bash 5+)
 
-## Getting started
+Unix-like OS (Linux or macOS)
 
-Make sure you have `dialog` installed:
+dialog package (for the UI)
 
-```bash
-# Ubuntu/Debian
-sudo apt install dialog
+Install dialog if it's not already installed:
+
+# Debian/Ubuntu
+sudo apt-get install dialog
+
+# Red Hat/Fedora
+sudo dnf install dialog
 
 # macOS (with Homebrew)
 brew install dialog
+Installation & Usage
+Clone the repository and make the script executable:
+
+cd cronjob-scheduler
+chmod +x scheduler.sh
+Run the script:
+
+bash
+Copy
+Edit
+./scheduler.sh
+Use the arrow keys and Enter to navigate the menu.
+
+A few things to note
+This script only modifies your user-level crontab — it doesn’t touch system-wide jobs.
+
+Backups are saved as cron_backup.txt in the same directory. You can change the filename or path in the script if needed.
