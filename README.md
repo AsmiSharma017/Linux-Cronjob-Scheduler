@@ -19,7 +19,7 @@ Restore crontab from a saved backup
 
 Fully interactive, keyboard-navigable menu
 
-Requirements
+# Requirements
 Bash (tested on bash 5+)
 
 Unix-like OS (Linux or macOS)
@@ -31,12 +31,10 @@ Install dialog if it's not already installed:
 # Debian/Ubuntu
 sudo apt-get install dialog
 
-# Red Hat/Fedora
-sudo dnf install dialog
-
 # macOS (with Homebrew)
 brew install dialog
-Installation & Usage
+
+# Installation & Usage
 Clone the repository and make the script executable:
 
 cd cronjob-scheduler
@@ -46,7 +44,7 @@ Run the script:
 ./scheduler.sh
 Use the arrow keys and Enter to navigate the menu.
 
-A few things to note
+# A few things to note
 This script only modifies your user-level crontab — it doesn’t touch system-wide jobs.
 
 Backups are saved as cron_backup.txt in the same directory. You can change the filename or path in the script if needed.
