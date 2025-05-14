@@ -1,6 +1,6 @@
 # Linux-Cronjob-Scheduler
 Heya! This repository is for my team (PID-08) linux project named 'Cronjob Scheduler'.
-
+FYI- cronscheduler.sh is the main file
 
 # Cronjob-scheduler
 A simple interactive tool to help you manage cron jobs on your Linux system.
