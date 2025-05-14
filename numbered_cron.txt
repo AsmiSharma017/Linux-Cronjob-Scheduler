@@ -1,0 +1,14 @@
+ 1. # PATH=/usr/local/bin:/usr/bin:/bin
+ 2. # SHELL=/bin/bash
+ 3. 0 12 12 5 * top
+ 4. 30 10 04 07 * ps
+ 5. 30 10 05 08 * ls
+ 6. 30 11 05 08 * top
+ 7. 30 14 * * * 
+ 8. 30 7 14 5 * ps # aaag_task
+ 9. 30 10 05 08 * top
+10. # CRON SCHEDULER HEADER
+11. 59 10:30 01 01 * top
+12. 2 2 01 01 * ps
+13. 30 12 01 01 * mkdir asmi
+14. 30 2 01 01 * backup
