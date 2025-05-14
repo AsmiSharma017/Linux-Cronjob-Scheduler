@@ -2,6 +2,12 @@
 Heya! This repository is for my team (PID-08) linux project named 'Cronjob Scheduler'.
 FYI- cronscheduler.sh is the main file
 
+#Team members
+Anish - 2310991524
+Asmi -2310991548
+Ayush-2310991551
+Gurleen-2310991579
+
 # Cronjob-scheduler
 A simple interactive tool to help you manage cron jobs on your Linux system.
 This script allows you to view, add, delete, and backup your cron jobs using a terminal-based interface.
